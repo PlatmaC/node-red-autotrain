@@ -1,6 +1,6 @@
 {
-    "name": "@platmac/autotrainer",
-    "version": "1.0",
+    "name": "@platmac/node-red-autotrainer",
+    "version": "1.0.0",
     "author": "Luka <platma@platma.com>",
     "description": "Simple node to call local autotrain api",
     "private": false,
