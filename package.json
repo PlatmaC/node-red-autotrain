@@ -1,24 +1,24 @@
 {
     "name": "@platmac/autotrainer",
     "version": "0.1",
-    "author": "minh hien <taminhhien.mor.vn@gmail.com>",
+    "author": "Luka <platma@platma.com>",
     "description": "Simple node to call local autotrain api",
-    "license": "Apache-2.0",
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "ISC",
     "keywords": [
         "node-red",
-        "google-calendar"
+        "platma",
+        "autotrain"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/taminhhienmor/node-red-contrib-google-calendar"
+        "url": "https://github.com/PlatmaC/node-red-autotrain"
     },
-    "maintainers": [
-        {
-            "name": "minh hien",
-            "email": "taminhhien.mor.vn@gmail.com"
-        }
-    ],
     "node-red": {
+        "version": ">=2.0.0",
         "nodes": {
             "startAutolearner": "source/startAutolearner.js"
         }
